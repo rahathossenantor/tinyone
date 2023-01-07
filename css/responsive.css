@@ -1,0 +1,116 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 320px) and (max-width: 575px){
+    .navbar {
+        padding-top: 15px;
+    }
+    .slide_content {
+        padding-top: 0px;
+    }
+    .slide_content h4 {
+        margin: 12px 0 22px 0;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        display: none;
+    }
+    .for_hide{
+        display: none;
+    }
+    .body_content_01 h2 {
+        padding-top: 43px;
+    }
+    .body_icon,
+    .icon_text{
+        text-align: center;
+    }
+    .icon_text_2nd_line p {
+        margin-bottom: 71px;
+    }
+    footer{
+        padding: 40px 0;
+    }
+    #emali_for_updt {
+        padding: 10px 78px 10px 15px;
+    }
+    .sub_btn {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .footer_list{
+        margin-top: 30px;
+    }
+}
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){
+    /* Slide part start */
+    .navbar {
+        padding-top: 19px;
+    }
+    .slide_content {
+        padding-top: 0px;
+    }
+    .slide_content{
+        text-align: center;
+    }
+    .slide_platfort_icon{
+        margin-left: 33%;
+    }
+    .carousel-control-next-icon {
+       display: none;
+    }
+    .carousel-control-prev-icon {
+        display: none;
+    }
+    /* Slide part end */
+    /* Body main part start */
+    .body_content_01 h2 {
+        padding-top: 49px;
+    }
+    .icon_text_2nd_line p {
+        margin-bottom: 57px;
+    }
+    .body_icon{
+        text-align: center;
+    }
+    .icon_text{
+        text-align: center;
+    }    
+    /* Body main part end */
+    /* Footer part start */
+    footer{
+        padding: 25px 0;
+    }
+    .footer_list{
+        margin-top: 20px;
+    }
+    /* Footer part end */
+}
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) and (max-width: 991px){} */
+
+
+
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) and (max-width: 1199px){} */
+
+
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) and (max-width: 1399px){} */
+
+
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { ... } */
